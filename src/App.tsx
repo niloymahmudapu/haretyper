@@ -1,13 +1,13 @@
 import { useState } from "react";
 
 import "./scss/style.scss";
-import keyboardHandPositionImg from "./assets/images/keyboard-hand-position.png";
 import { randomAyah } from "./utils/random";
 import DisplayTyping from "./components/display-typing";
 import { useStats } from "./hooks/use-stats";
 import { timerString } from "./utils/timer-string";
 import useTypingHistory from "./hooks/use-typing-history";
 import getStats from "./utils/get-stats";
+import Keyboard from "./components/keyboard/index";
 
 export default function App() {
 	const [ayah, setAyah] = useState(randomAyah());
@@ -78,8 +78,13 @@ export default function App() {
 						<p>Seconds</p>
 					</div>
 				</div>
-				<div id="keyboard-hand-position">
-					<img src={keyboardHandPositionImg}></img>
+				<div>
+					<Keyboard
+						onKeyPress={(keyCode) => {
+							// do something with keyCode
+							return keyCode;
+						}}
+					/>
 				</div>
 			</div>
 		</div>

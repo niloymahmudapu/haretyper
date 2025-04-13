@@ -1,6 +1,6 @@
 [package]
 name = "haretyper"
-version = "1.0.0"
+version = "1.1.0"
 description = "haretyper is a typing practice app where you type quranic verses for your typing practices."
 authors = ["you"]
 edition = "2021"
