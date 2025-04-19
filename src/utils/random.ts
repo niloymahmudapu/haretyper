@@ -1,4 +1,4 @@
-import quran from "../assets/quran.json";
+import quran from "../assets/quran.en.json";
 
 export function random(max = 113, min = 0) {
 	return Math.round(Math.random() * (max - min)) + min;
