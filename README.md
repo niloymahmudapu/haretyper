@@ -56,4 +56,4 @@ For any issues or inquiries, feel free to reach out to the author:
 
 - **Author**: Niloy Mahmud Apu
 - **Email**: niloymahmudapu@gmail.com
-- **Website**: [niloy.org](https://niloy.org)
+- **Website**: [niloy.me](https://niloy.me)
